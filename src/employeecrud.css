@@ -1,0 +1,59 @@
+.employee{
+    max-width: 1048px;
+    width: 100%;
+    margin: auto;
+    height: 80vh;
+    padding: 2px;
+}
+.empdata{
+    max-width: 1048px;
+    width: 100%;
+    margin: 10px auto;
+}
+.empdata > table{
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    margin: 5px 5px 5px 0;
+    align-items: center;
+    background-color: #d13439d2;
+    color: white;
+    border-bottom: 1px solid #ea4300;
+}
+th{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    min-width: 250px;
+    width: 100%;
+    border-right: 1px solid whitesmoke;
+    text-align: center;
+    margin-left: 5PX;
+    display: flex;
+    justify-content:flex-start;
+}
+.table_head{
+    background-color:#d13439d2 ;
+    height: 48px;
+    align-items: center;
+    margin-top: 10px;
+}
+.table_body:hover{
+    background-color: #deecf9;
+}
+tr{
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+td{
+    min-width: 250px;
+    width: 100%;
+    display: flex;
+    padding-left: 5PX;
+    align-items: center;
+    justify-content:flex-start;
+    border-bottom: 1px solid #c7e0f4;
+}
+
